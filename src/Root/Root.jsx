@@ -7,7 +7,11 @@ export default function Root() {
   return (
     <>
     <Header/>
-    <Outlet/>
+
+   <section className="max-w-[1500px] mx-auto my-14">
+   <Outlet/>
+   </section>
+
     <Footer/>
     </>
   )
